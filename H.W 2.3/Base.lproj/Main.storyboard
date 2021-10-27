@@ -49,21 +49,25 @@
                                     <action selector="logInButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xw0-mb-ewt"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="jgu-nA-aWl">
-                                <rect key="frame" x="54" y="376" width="306" height="31"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R38-j6-pyo">
+                                <rect key="frame" x="73.5" y="369.5" width="267" height="28.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxV-jl-aHU">
-                                        <rect key="frame" x="0.0" y="0.0" width="149.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="28.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Forgot User Name?"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Forgot User Name?">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="forgotUsName" destination="BYZ-38-t0r" eventType="touchUpInside" id="ylq-GA-mLl"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nW-Ac-U2c">
-                                        <rect key="frame" x="156.5" y="0.0" width="149.5" height="31"/>
+                                        <rect key="frame" x="133.5" y="0.0" width="133.5" height="28.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Forgot Password?"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="forgotPass" destination="BYZ-38-t0r" eventType="touchUpInside" id="e20-fn-MnB"/>
                                         </connections>
@@ -75,11 +79,11 @@
                         <color key="backgroundColor" red="0.82594576750000004" green="0.82594576750000004" blue="0.82594576750000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NqM-r2-Bfu" firstAttribute="top" secondItem="CVL-vz-2s8" secondAttribute="bottom" constant="35.5" id="3qK-jI-tc5"/>
-                            <constraint firstItem="jgu-nA-aWl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XPe-4b-IrE"/>
+                            <constraint firstItem="R38-j6-pyo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EHI-El-WFT"/>
+                            <constraint firstItem="R38-j6-pyo" firstAttribute="top" secondItem="NqM-r2-Bfu" secondAttribute="bottom" constant="1" id="WNe-jg-aac"/>
                             <constraint firstItem="CVL-vz-2s8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.567633" id="aZC-0h-uZ7"/>
                             <constraint firstItem="CVL-vz-2s8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="b5M-Hy-0Si"/>
                             <constraint firstItem="NqM-r2-Bfu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fVf-1H-si8"/>
-                            <constraint firstItem="jgu-nA-aWl" firstAttribute="top" secondItem="NqM-r2-Bfu" secondAttribute="bottom" constant="7.5" id="fjc-y5-Dnq"/>
                             <constraint firstItem="CVL-vz-2s8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q0H-ew-zJK"/>
                         </constraints>
                     </view>
